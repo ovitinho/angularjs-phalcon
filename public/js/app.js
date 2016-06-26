@@ -18,7 +18,7 @@ app.config(['$routeProvider',function($routeProvider)
 		templateUrl: "templates/blog.html",
 		controller: "blogCtrl"
 	})
-	.otherwise({ redirectTo: "/" });
+	.otherwise({ redirectTo: "/home" });
 }]);
 
 app.controller('homeCtrl', ['$scope', function($scope)
